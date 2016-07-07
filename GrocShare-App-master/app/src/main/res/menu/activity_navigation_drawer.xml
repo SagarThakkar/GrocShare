@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_orderHistory"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Order History" />
+
+        <item
+            android:id="@+id/nav_signOut"
+            android:icon="@drawable/common_google_signin_btn_icon_dark_normal"
+            android:title="Sign Out" />
+
+
+
+
+    </group>
+
+    <item android:title="Pay Up">
+        <menu>
+
+            <item
+                android:id="@+id/nav_squareCash"
+                android:icon="@drawable/squarecash"
+                android:title="SquareCash" />
+            <item
+                android:id="@+id/nav_splitwise"
+                android:icon="@drawable/splitwise"
+                android:title="Splitwise" />
+
+
+        </menu>
+    </item>
+
+</menu>
